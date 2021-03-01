@@ -6,12 +6,10 @@ Take a list, say for example this one:
 and write a program that prints out all the elements of the list that are less than 5.
 
 """
-"""
 a = [ 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 for i in a:
     if i < 5: #checking if the element is less than 5
         print(a[i])
-"""
 """
 Extras:
 
@@ -20,7 +18,7 @@ Write this in one line of Python.
 Ask the user for a number and return a list that contains only elements from the original list a that are smaller than that number given by the user.
 
 """
-
+print([1,1,2,3])
 
 a = [ 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 number = input("Give me a number: ")
